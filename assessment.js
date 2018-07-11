@@ -58,7 +58,7 @@ assessmentButton.onclick=() => {
     };
   
 
-            const answers = [
+             const answers = [
         '{userName}は サーバルのフレンズだね！{userName}のジャンプ力はどのフレンズよりすごいんだから！',
         '{userName}は 人のフレンズだね！{userName}はいろんなことができるの。すっごーい！',
         '{userName}は アライグマのフレンズだね！{userName}はわたあめでさえ洗っちゃうんだから！',
@@ -74,9 +74,8 @@ assessmentButton.onclick=() => {
         '{userName}は ツチノコのフレンズだね！{userName}の目にはピット器官があるんだって！なんなんだろ？わっかんないや！。',
         '{userName}は ライオンのフレンズだね！{userName}は一日14時間も寝てるんだって！',
         '{userName}は ヘラジカのフレンズだね！{userName}はライオンと仲良しなんだよ！',
-        '{userName}は　　　コツメカワウソのフレンズだね！あなたとジャガーはとっても仲良しなの！。',
         '{userName}は ラッキービーストだね！！{userName}のポンコツぶりがすごいんだから！',
-        '{userName}、テメェ漬物だな？漬物、テメェはダメつってんだろうがぁぁ！',
+        '{userName}、テメェ漬物だな？漬物、テメェはダメつってんだろうがぁぁ！'
 
 ];
 
