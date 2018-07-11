@@ -1,3 +1,4 @@
+
 (function () {
     'use strict';
 　  const userNameInput = document.getElementById('user-name');
@@ -58,7 +59,7 @@ assessmentButton.onclick=() => {
     };
   
 
-             const answers = [
+            const answers = [
         '{userName}は サーバルのフレンズだね！{userName}のジャンプ力はどのフレンズよりすごいんだから！',
         '{userName}は 人のフレンズだね！{userName}はいろんなことができるの。すっごーい！',
         '{userName}は アライグマのフレンズだね！{userName}はわたあめでさえ洗っちゃうんだから！',
