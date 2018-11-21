@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>コナン定型文</title>
+</head>
+
+<body>
+  <!--ヘッダー-->
+  <h1 class="koeda">小枝の戯れ</h1>
+  <div class="content">
+    <!--タイトル-->
+    <h1 class="KONAMI">コナン定型文</h1>
+
+    <!--説明文-->
+    <h4>「名探偵コナン」の冒頭で流れる長いセリフをアレンジしてみよう！
+      <br>下の枠を全て埋め、設定を押します。それができたら送信を押してください。
+      <br>あなたのアレンジした名探偵コナンの冒頭の出来上がりです。</h4>
+
+    <!--送信-->
+    <input class="fast" type="text" id="txt1" value="できた" placeholder="「できた」を入れてください">
+    <input class="second" type="button" value="送信" onclick="getValue('txt1');">
+    <br>
+
+    <!--記入欄-->
+    <input type="text" id="txt2" value="" placeholder="職業" class="text">
+    <input type="button" value="設定" class="button" onclick="getProfession('txt2');">
+
+    <input type="text" id="txt3" value="" placeholder="名前" class="text">
+    <input type="button" value="設定" class="button" onclick="getname('txt3');">
+
+    <input type="text" id="txt4" value="" placeholder="友人の名前" class="text">
+    <input type="button" value="設定" class="button" onclick="getfriend('txt4');">
+
+    <input type="text" id="txt5" value="" placeholder="遊びに行った場所" class="text">
+    <input type="button" value="設定" class="button" onclick="getplace('txt5');">
+
+    <input type="text" id="txt6" value="" placeholder="怪しいやつ..." class="text">
+    <input type="button" value="設定" class="button" onclick="getsuspicious('txt6');">
+
+    <input type="text" id="txt7" value="" placeholder="毒薬を飲んだら..." class="text">
+    <input type="button" value="設定" class="button" onclick="getpoison('txt7');">
+    <br>
+    <input type="text" id="txt8" value="" placeholder="協力者" class="text">
+    <input type="button" value="設定" class="button" onclick="getCollaborators('txt8');">
+
+    <input type="text" id="txt9" value="" placeholder="偽名" class="text">
+    <input type="button" value="設定" class="button" onclick="getPseudonym('txt9');">
+
+    <input type="text" id="txt10" value="" placeholder="眠らされる人" class="text">
+    <input type="button" value="設定" class="button" onclick="getsleep('txt10');">
+
+    <input type="text" id="txt11" value="" placeholder="相手を眠らせる発明品" class="text">
+    <input type="button" value="設定" class="button" onclick="getInvention1('txt11');">
+
+    <input type="text" id="txt12" value="" placeholder="声を変える発明品" class="text">
+    <input type="button" value="設定" class="button" onclick="getInvention2('txt12');">
+
+    <input type="text" id="txt13" value="" placeholder="発明品1" class="text">
+    <input type="button" value="設定" class="button" onclick="getInvention3('txt13');">
+    <br>
+    <input type="text" id="txt14" value="" placeholder="発明品2" class="text">
+    <input type="button" value="設定" class="button" onclick="getInvention4('txt14');">
+
+    <input type="text" id="txt15" value="" placeholder="発明品3" class="text">
+    <input type="button" value="設定" class="button" onclick="getInvention5('txt15');">
+
+    <input type="text" id="txt16" value="" placeholder="見た目は？" class="text">
+    <input type="button" value="設定" class="button" onclick="getchildren('txt16');">
+
+    <input type="text" id="txt17" value="" placeholder="頭脳は？" class="text">
+    <input type="button" value="設定" class="button" onclick="getadult('txt17');">
+
+    <input type="text" id="txt18" value="" placeholder="タイトルコール" class="text">
+    <input type="button" value="設定" class="button" onclick="getTitle('txt18');">
+
+    <!--記入の手助け-->
+    <h2>元々の文</h2>
+    <h3 class="red">赤の部分が変わります。</h3>
+    <h5>
+      <br> 俺は<span>高校生</span>探偵、<span>工藤新一</span>。
+      <br>幼馴染で同級生の<span>毛利蘭</span>と<span>遊園地</span>へ遊びに行って
+      <br>黒ずくめの<span>男</span>の怪しげな取引現場を目撃した。
+      <br>取引を見るのに夢中になっていた俺は、
+      <br>背後から近づいてくるもう一人の仲間に気づかなかった。
+      <br>俺はその男に毒薬を飲まされ、目が覚めたら・・・
+      <br>
+      <br><span>体が縮んでしまっていた</span>。
+      <br><span>工藤新一</span>が生きているとやつらにばれたら
+      <br>また命を狙われ、周りの人間にも危害が及ぶ。
+      <br><span>阿笠博士</span>の助言で正体を隠すことにした俺は、
+      <br><span>蘭</span>に名前を聞かれて、とっさに<span>江戸川コナン</span>と名乗り、
+      <br>やつらの情報をつかむ為に、
+      <br>父親が探偵をやっている<span>蘭</span>の家に転がり込んだ。
+      <br>
+      <br>オレは<span>毛利のおっちゃん</span>を名探偵に仕立てるべく、<span>時計型麻酔銃</span>で<span>おっちゃん</span>を眠ら
+      <br>せ、<span>蝶ネクタイ型変声機</span>を使って、おっちゃん<span></span>の声でかわりに事件を解いている。
+      <br>この二つのメカは、<span>阿笠博士</span>の発明品だ！<span>博士</span>は他にも…<span>ターボエンジン付きスケー
+        <br>ドボード</span>や、<span>犯人追跡メガネ</span>、<span>キック力増強シューズ</span>など次々とユニークなメカを作
+      <br>り出してくれた！
+      <br><span></span>
+      <br>たった一つの真実見抜く見た目は<span>子供</span>、頭脳は<span>大人</span>、
+      <br>その名は、<span>未来少年コナン</span>！
+    </h5>
+
+    <!--例-->
+    <h2>小枝の作品</h2>
+    <h5>
+      <br> 俺は原始探偵、群馬。
+      <br>幼馴染で同級生の栃木県と叙々苑へ遊びに行って
+      <br>黒ずくめの東京都の怪しげな取引現場を目撃した。
+      <br>取引を見るのに夢中になっていた俺は、
+      <br>背後から近づいてくるもう一人の仲間に気づかなかった。
+      <br>俺はその男に毒薬を飲まされ、目が覚めたら・・・
+      <br>
+      <br>体が縮んでしまっていた。
+      <br>群馬が生きているとやつらにばれたら
+      <br>また命を狙われ、周りの人間にも危害が及ぶ。
+      <br>日本政府の助言で正体を隠すことにした俺は、
+      <br>栃木県に名前を聞かれて、とっさにグンマーと名乗り、
+      <br>やつらの情報をつかむ為に、
+      <br>父親が探偵をやっている栃木県の家に転がり込んだ。
+      <br>
+      <br>オレは栃木県庁を名探偵に仕立てるべく、群馬の不思議な力で栃木県庁を眠ら
+      <br>せ、蝶ネクタイ型変声機（肉声）を使って、栃木県庁の声でかわりに事件を解いている。
+      <br>この二つのメカは、日本政府の発明品だ！日本政府は他にも…群馬棒
+      <br>や、犯人追跡メガネ（肉眼）、キック力増強シューズ（素蹴り）など次々とユニークなメカを作
+      <br>り出してくれた！
+      <br>
+      <br>たった一つの真実見抜く見た目はグンマー、頭脳は群馬、
+      <br>その名は、未来少年コナン！
+    </h5>
+  </div>
+  <!--フッダー-->
+  <footer>
+    <div　class="footer">
+      <small>
+        &copy;カスタネット小枝
+      </small>
+      <img src="konoha.png" class="konoha">
+    </div>
+  </footer>
+  <script src="KONAMI.js"></script>
+  <link rel="stylesheet" href="KONAMI.css">
+</body>
+
+</html>
