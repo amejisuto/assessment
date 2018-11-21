@@ -1,0 +1,81 @@
+body{
+    background-color: #2E9AFE;
+}
+
+.content{
+    max-width: 650px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #58ACFA;
+}
+h1,h4,h2,input,.red,h5{
+    text-align: center;
+}
+.koeda{
+    width: 650px;
+   height: 100px;
+   margin: auto;
+   font-size:300%;
+   font-weight: normal;
+   text-align: center;
+   background:#fff;
+   left:0;
+   line-height:70px;
+   position:fixed;
+   top:0px;
+   width:100%;
+   z-index:24;
+   background-image: url(koeda.png)
+}
+.KONAMI{
+    background-image: url(nekutai.png)
+}
+h2{
+    background-image: url(udetokei.png)
+}
+.fast{
+    margin-left: 35%;
+}
+.second{
+    margin: 20px;
+}
+/* テキスト */
+.text{
+    margin-left: 20px;
+}
+/* ボタン */
+.button{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 2px #627295;
+    border-radius: 2px;  
+    margin-top:5px ;
+}
+.button:before{
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+ }
+
+ h2{
+     margin-top: 50px;
+ }
+span{
+    color: brown;
+}
+.konoha{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+footer{
+    background: #08088A;
+    text-align: center;
+    margin-top: 0px;
+    padding: 15px;
+    color: white;
+  }
