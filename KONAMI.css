@@ -8,7 +8,7 @@ body{
     margin-top: 100px;
     background-color: #58ACFA;
 }
-h1,h4,h2,input,.red,h5{
+h4,input,.red,h5{
     text-align: center;
 }
 h1.koeda{
@@ -28,10 +28,13 @@ h1.koeda{
    background-image: url(./picture/koeda.png)
 }
 h1.KONAMI{
-    background-image: url(./picture/nekutai.png)
+    background-image: url(./picture/nekutai.png);
+     text-align: center;
 }
 h2{
-    background-image: url(udetokei.png)
+    background-image: url(udetokei.png);
+        text-align: center;
+    margin-top: 50px;
 }
 .fast{
     margin-left: 35%;
@@ -61,9 +64,6 @@ h2{
     border-bottom: none;/*線を消す*/
  }
 
- h2{
-     margin-top: 50px;
- }
 span{
     color: brown;
 }
