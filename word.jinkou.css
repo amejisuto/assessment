@@ -1,31 +1,6 @@
 /*背景*/
-.back-left{
-  top: 100px;
-  width: 300px;
-  height: 300px;
-  position:fixed;
-  left: 0;
-}
-.back-boy{
-  top: 400px;
-  width: 100px;
-  height: 300px;
-  position:fixed;
-  left: 80px;
-}
-.back-rigth{
-  top: 400px;
-  width: 300px;
-  height: 300px;
-  position:fixed;
-  right: 0;
-}
-.back-girl{
-  top: 100px;
-  width: 100px;
-  height: 300px;
-  position:fixed;
-  right:  80px;
+body{
+  background-color: #848484;
 }
 /*ヘッダー題名*/
 h1{
@@ -89,8 +64,8 @@ h2{
     /*俺の画像*/
     .eda{
         margin-top: 30px;
-      width: 100px;
-      height: 100px;
+      width: 15%;
+      height: 15%;
   }
   
     /*フッダー*/
