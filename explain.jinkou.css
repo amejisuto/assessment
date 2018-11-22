@@ -1,0 +1,51 @@
+/*背景*/
+.back-left{
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    position:fixed;
+    left: 0;
+  }
+  .back-boy{
+    top: 400px;
+    width: 100px;
+    height: 300px;
+    position:fixed;
+    left: 80px;
+  }
+  .back-rigth{
+    top: 400px;
+    width: 300px;
+    height: 300px;
+    position:fixed;
+    right: 0;
+  }
+  .back-girl{
+    top: 100px;
+    width: 100px;
+    height: 300px;
+    position:fixed;
+    right:  80px;
+  }
+/*ヘッダー題名*/
+h1{
+    width: 650px;
+   height: 100px;
+   margin: auto;
+   font-size:300%;
+   text-align: center;
+   background:#fff;
+   left:0;
+   line-height:70px;
+   position:fixed;
+   top:0px;
+   width:100%;
+   z-index:24;
+}
+
+/*全体*/
+.header,.content,.footer{
+    max-width: 650px;
+    margin: auto;
+    padding: 0 20px;
+}
