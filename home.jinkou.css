@@ -1,3 +1,7 @@
+/*背景*/
+body{
+    background-color:red;
+}    
 /*ヘッダー題名*/
 h1{
     width: 650px;
