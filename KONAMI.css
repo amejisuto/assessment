@@ -28,11 +28,11 @@ h1.koeda{
    background-image: url(/amejisuto/assessment/gh-pages/picture/koeda.png)
 }
 h1.KONAMI{
-    background-image: url(./picture/nekutai.png);
+    background-image: url(/amejisuto/assessment/gh-pages/picture/nekutai.png);
      text-align: center;
 }
 h2{
-    background-image: url(./picture/udetokei.png);
+    background-image: url(/amejisuto/assessment/gh-pages/picture/udetokei.png);
         text-align: center;
     margin-top: 50px;
 }
