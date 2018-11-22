@@ -27,7 +27,7 @@ h1,h4,h2,input,.red,h5{
    z-index:24;
    background-image: url(./picture/koeda.png)
 }
-.KONAMI{
+h1.KONAMI{
     background-image: url(nekutai.png)
 }
 h2{
