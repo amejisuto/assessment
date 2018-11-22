@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>人行 プレイ</title>
+    <link rel="stylesheet" href="play.jinkou.css">
+</head>
+
+<body>
+    <!--背景-->
+    <img src="wolf1.png" class="back-left">
+    <img src="wolf2.png" class="back-rigth">
+    <img src="human1.png" class="back-boy">
+    <img src="human2.png" class="back-girl">
+
+    <!--タイトル-->
+    <h1 name="共通タイトル">werewolf</h1>
+
+    <!--ヘッダー-->
+    <div class="header">
+        <h4>
+            |<a href="home.jinkou.html">Home</a>|
+
+            <a href="explain.jinkou.html">Explain</a>|
+
+            <a href="word.jinkou.html">Word</a>|
+        </h4>
+    </div>
+
+    <!--コンテンツ-->
+    <div class="content">
+
+        <!--タイトル-->
+        <h2 name="タイトル" class="bar">GMアシスト</h2>
+
+        <!--人数-->
+        <h2 name="メインサブタイトル" class="member">
+            プレイヤーは<span id="count" class="zero"> </span>人です
+        </h2>
+
+        <!--タイマー-->
+        <h3 name="サブタイトル">カウントタイマー</h3>
+        <div>
+            <form name="timer">
+                <input class="number1" type="text" value="">分
+                <input class="number1" type="text" value="">秒<br>
+                <input class="peony" type="button" value="スタート" onclick="cntStart()">
+                <input class="peony" type="button" value="ストップ" onclick="cntStop()">
+            </form>
+        </div>
+
+        <!--プレイヤー-->
+        <h3 name="サブタイトル">プレイヤー情報</h3>
+        <div name="プレイヤー">
+            <table border=2px>
+
+                <th>
+
+                    <div id="nakama" class="memo1">陣営</div>
+
+                <th>
+
+                    <div id="sigoto" class="memo2">役職</div>
+
+                <th>
+
+                    <div id="name" class="memo3">プレイヤー名</div>
+
+                <th>
+
+                    <div id="seizon" class="memo4">生存</div>
+
+
+
+            </table><br>
+            <button onclick="add()" id="click" class="player">プレイヤーを追加する</button>
+        </div>
+
+
+        <!--人狼-->
+
+        <div name="人狼">
+            <table border=2px>
+                <th>人狼
+                    <div id="asahi"></div>
+                </th>
+            </table><br>
+            <button onclick="nit()" id="click" class="player">人狼を追加する </button>
+        </div>
+
+
+        <!--最初の確認-->
+        <h3 name="サブタイトル">最初の確認</h3>
+        <table>
+            <tr>
+                <th>人狼どうし確認した</th>
+
+                <th><input type="checkbox" class="check"></th>
+            </tr>
+        </table>
+        ↓
+        <table>
+            <tr>
+                <th>占い師に初日占いの結果を教えた(初日占いは)</th>
+                <th><input type="checkbox" class="check"></th>
+            </tr>
+            <tr>
+                <th><input type="text" placeholder="占う人" class="text"></th>
+            </tr>
+        </table>
+
+        <!--占い-->
+        <h3 name="サブタイトル">占い結果</h3>
+        <div>
+            <input type=text class="text" id="uranai" placeholder="占う人"><br>
+            <input type="button" value="占う" id="Button" class="peony">
+        </div>
+
+        <!--進行-->
+        <h3 name="サブタイトル">進行表</h3>
+        <table>
+            <tr>
+                <th>人狼から噛み先を聞いた</th>
+
+                <th><input type="checkbox" class="check"></th>
+            </tr>
+            <tr>
+                <th><input type="text" placeholder="噛まれる人" class="text"></th>
+            </tr>
+        </table>
+        ↓
+        <table>
+            <tr>
+                <th>狩人から守り先を聞いた(連続ガードは)</th>
+                <th><input type="checkbox" class="check"></th>
+            </tr>
+            <tr>
+                <th><input type="text" placeholder="守る人" class="text"></th>
+            </tr>
+        </table>
+        ↓
+        <table>
+            <tr>
+                <th>占い師に占い結果を教えた</th>
+                <th><input type="checkbox" class="check"></th>
+            </tr>
+            <tr>
+                <th><input type="text" placeholder="占う人" class="text"></th>
+            </tr>
+        </table>
+        ↓
+        <table>
+            <tr>
+                <th>霊媒師に霊媒結果を教えた</th>
+                <th><input type="checkbox" class="check"></th>
+            </tr>
+            <tr>
+                <th><input type="text" placeholder="霊媒される人" class="text"></th>
+            </tr>
+        </table>
+        <img src="eda.png" class="eda">
+    </div>
+    <!--フッダー-->
+    <footer>
+        <div　class="footer">
+            <small>
+                &copy;カスタネット小枝
+            </small>
+        </div>
+    </footer>
+    <script src="play.jinkou.js"></script>
+</body>
+
+</html>
