@@ -26,6 +26,7 @@ h1.koeda{
    width:100%;
    z-index:24;
    background-image: url(/amejisuto/assessment/gh-pages/picture/koeda.png);
+    background-size:auto;
 }
 h1.KONAMI{
     background-image: url(/amejisuto/assessment/gh-pages/picture/nekutai.png);
