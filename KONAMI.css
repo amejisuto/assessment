@@ -11,7 +11,7 @@ body{
 h4,input,.red,h5{
     text-align: center;
 }
-h1.koeda{
+.koeda{
     width: 650px;
    height: 100px;
    margin: auto;
@@ -28,7 +28,7 @@ h1.koeda{
    background-image: url(/amejisuto/assessment/gh-pages/picture/koeda.png);
     background-size:auto;
 }
-h1.KONAMI{
+.KONAMI{
     background-image: url(/amejisuto/assessment/gh-pages/picture/nekutai.png);
     background-size:contain; 
     text-align: center;
