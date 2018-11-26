@@ -30,12 +30,12 @@ h4,input,.red,h5{
 }
 .KONAMI{
     background-image: url(/amejisuto/assessment/gh-pages/picture/nekutai.png);
-    background-size:contain; 
+    background-size:auto; 
     text-align: center;
 }
 h2{
     background-image: url(/amejisuto/assessment/gh-pages/picture/udetokei.png);
-    background-size:contain;
+    background-size:auto;
         text-align: center;
     margin-top: 50px;
 }
