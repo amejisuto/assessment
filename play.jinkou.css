@@ -74,6 +74,7 @@ h4{
   /*プレイヤー*/
   .memo1,.memo2,.memo3,.memo4{
       margin: auto;
+       font-size: 20%;
   }
   .memo1{
       color: red;
