@@ -72,6 +72,9 @@ h4{
   }
 
   /*プレイヤー*/
+  .memo{
+      margin: auto;
+  }
   .memo1,.memo2,.memo3,.memo4{
       margin: auto;
        font-size: 20%;
