@@ -15,10 +15,10 @@ Cup = Cup + 1;
 number.innerText = Cup;
 
 //行を追加
-friend.innerHTML = ' <tr> <td> <input  type=text> </td> </tr>  ';
-work.innerHTML   = ' <tr> <td> <input  type=text> </td> </tr> ';
-namae.innerHTML  = ' <tr> <td> <input  type=text> </td> </tr> ';
-ikiru.innerHTML  = ' <tr> <td> <input  type=text> </td> </tr> ';
+friend.innerHTML = ' <tr> <td> <input  type=text class="haba"> </td> </tr>  ';
+work.innerHTML   = ' <tr> <td> <input  type=text class="haba"> </td> </tr> ';
+namae.innerHTML  = ' <tr> <td> <input  type=text class="haba"> </td> </tr> ';
+ikiru.innerHTML  = ' <tr> <td> <input  type=text class="haba"> </td> </tr> ';
 
 
 var tomodati = document.getElementById("nakama");
