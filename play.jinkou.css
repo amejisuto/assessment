@@ -72,15 +72,16 @@ h4{
   }
 
   /*プレイヤー*/
-.haba{
-          width:50px;
+  .haba{
+    width:100px;
+    margin-top: 10px;
 }
   .memo{
       margin: auto;
   }
   .memo1,.memo2,.memo3,.memo4{
       margin: auto;
-       font-size: 30%;
+      font-size: 25%;
   }
   .memo1{
       color: red;
@@ -132,7 +133,7 @@ h4{
 
 /*タイマー入力部*/
   input{
-      font-size: 20%;
+      font-size: 30%;
   }
 
   /*チェックボックス*/
@@ -151,9 +152,30 @@ h4{
       font-size: 20%;
   }
 
+  /*占い結果表示*/
+  .result-white{
+      font-size: 1000%;
+      margin: auto;
+      margin-top: 40%;
+      background-color: white;
+  }
+  .result-black{
+      font-size: 1000%;
+      color: #fff;
+      margin: auto;
+      margin-top: 40%;
+      background-color: #000000;
+  }
+  .result-fox{
+    font-size: 1000%;
+    margin: auto;
+    margin-top: 40%;
+    background-color: purple;
+  }
+
   /*俺の画像*/
   .eda{
-      margin-top: 30px;
+      margin-top: 40%;
     width: 15%;
     height: 15%;
 }
