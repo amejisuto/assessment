@@ -154,20 +154,20 @@ h4{
 
   /*占い結果表示*/
   .result-white{
-      font-size: 1000%;
+      font-size: 1010%;
       margin: auto;
       margin-top: 40%;
       background-color: white;
   }
   .result-black{
-      font-size: 1000%;
+      font-size: 1010%;
       color: #fff;
       margin: auto;
       margin-top: 40%;
       background-color: #000000;
   }
   .result-fox{
-    font-size: 1000%;
+    font-size: 1010%;
     margin: auto;
     margin-top: 40%;
     background-color: purple;
