@@ -1,0 +1,251 @@
+/*背景*/
+body{
+    background-color: #848484;
+  }
+/*ヘッダー題名*/
+h1{
+    width: 650px;
+   height: 100px;
+   margin: auto;
+   font-size:300%;
+   text-align: center;
+   background:#fff;
+   left:0;
+   line-height:70px;
+   position:fixed;
+   top:0px;
+   width:100%;
+   z-index:24;
+}
+
+/*全体*/
+.header,.content,.footer{
+    max-width: 650px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/*ヘッダー*/
+h4{
+    background:#fff;
+    box-shadow:0 2px 0px rgba(30,30,80,.3);
+    left:0;
+    line-height:2;
+    position:fixed;
+    top:43px;
+    width:100%;
+    z-index:24;
+    text-align: right
+  }
+
+/*ライトサイド*/
+.said-right{
+    background:#fff;
+    box-shadow:0 2px 0px rgba(30,30,80,.3);
+    right:20px;
+    line-height:2;
+    position:fixed;
+    top:105px;
+    width:20%;
+    z-index:24;
+    text-align: center
+  }
+
+  /*レフトサイド*/
+  .said-left{
+    background:#fff;
+    box-shadow:0 2px 0px rgba(30,30,80,.3);
+    left:20px;
+    line-height:2;
+    position:fixed;
+    top:110px;
+    width:20%;
+    z-index:24;
+    text-align: center
+  }
+  .said-left2{
+    background:#fff;
+    box-shadow:0 2px 0px rgba(30,30,80,.3);
+    left:20px;
+    line-height:2;
+    position:fixed;
+    top:500px;
+    width:20%;
+    z-index:24;
+    text-align: center
+  }
+
+  /*コンテンツ*/
+  .content{
+    margin-top: 100px;
+    background-color: #eeeeee;
+    text-align: center
+}
+
+/*題名*/
+  h2{
+    margin-top: 30px;
+    font-size:200%;
+  }
+  .bar{
+    background-image : url( ber.png );
+    box-shadow:0 2px 0px rgba(30,30,80,.3);
+}
+  /*サブタイトル*/
+  h3{
+    margin-top: 50px;
+      font-size: 150%;
+    box-shadow:0 2px 0px rgba(30,30,80,.3);
+  }
+  .zero{
+      color: red;
+  }
+
+  /*タイマー*/
+  .number1{
+      font-size: 200%;
+      width: 60px;
+      text-align: right;
+  }
+
+  /*プレイヤー*/
+  .haba{
+    margin-top: 10px;
+}
+  .memo{
+      margin: auto;
+  }
+  .memo1,.memo2,.memo3,.memo4{
+      margin: auto;
+      font-size: 100%;
+  }
+  .memo1{
+      color: red;
+  }
+  .memo2{
+      color: blue;
+  }
+  .memo3{
+      color: green;
+  }
+  .memo4{
+      color: purple;
+  }
+
+  /*ボタン*/
+  .player{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: black;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+.player:active {/*ボタンを押したとき*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+.peony {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: blue;/*背景色*/
+    border-bottom: solid 2px rgb(0, 0, 104);/*少し濃い目の色に*/
+    border-radius: 4px;/*角の丸み*/
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.peony:active{
+    border-bottom: solid 2px skyblue;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30)
+}
+.pink{
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #fa35fd;/*背景色*/
+    border-bottom: solid 2px #d200c8;/*少し濃い目の色に*/
+    border-radius: 4px;/*角の丸み*/
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.pink:active{
+    border-bottom: solid 2px #fd9535;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30)
+}
+
+/*タイマー入力部*/
+  input{
+      font-size: 30%;
+  }
+
+  /*チェックボックス*/
+  .check{
+      size: 80%;
+      transform:		scale(2.2);
+  }
+
+  /*テーブルタグ*/
+  table{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .text{
+      font-size: 100%;
+  }
+  .ww{
+      font-size: 80%;
+  }
+
+/*占い*/
+.magic{
+    font-size: 100%;
+}
+
+  /*占い結果表示*/
+  .result-white{
+      font-size: 1000%;
+      margin: auto;
+      margin-top: 40%;
+      background-color: white;
+  }
+  .result-black{
+      font-size: 1000%;
+      color: #fff;
+      margin: auto;
+      margin-top: 40%;
+      background-color: #000000;
+  }
+  .result-fox{
+    font-size: 1000%;
+    color: white;
+    margin: auto;
+    margin-top: 40%;
+    background-color: purple;
+  }
+
+  /*俺の画像*/
+  .eda{
+      margin-top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+  /*フッダー*/
+  footer{
+    color: white;
+    background: #000000;
+    text-align: center;
+    margin-top: 0px;
+    padding: 15px;
+  }
