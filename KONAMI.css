@@ -25,20 +25,20 @@ h4,input,.red,h5{
    top:0px;
    width:100%;
    z-index:24;
-   background-image: url(/amejisuto/assessment/gh-pages/picture/koeda.png);
+   background-image: url(https://raw.githubusercontent.com/amejisuto/assessment/gh-pages/picture/koeda.png);
     background-size:auto;
 }
 .KONAMI{
      width: 650px;
    height: 40px;
-    background-image: url(/amejisuto/assessment/gh-pages/picture/nekutai.png);
+    background-image: url(https://raw.githubusercontent.com/amejisuto/assessment/gh-pages/picture/nekutai.png);
     background-size:auto; 
     text-align: center;
 }
 h2{
      width: 650px;
    height: 30px;
-    background-image: url(/amejisuto/assessment/gh-pages/picture/udetokei.png);
+    background-image: url(https://raw.githubusercontent.com/amejisuto/assessment/gh-pages/picture/udetokei.png);
     background-size:auto;
         text-align: center;
     margin-top: 50px;
