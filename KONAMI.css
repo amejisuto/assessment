@@ -35,7 +35,7 @@ input,.red,h5{
     background-size:auto; 
     text-align: center;
 }
-h2,h3{
+h2{
      width: 650px;
    height: 30px;
     background-image: url(assessment/picture/udetokei.png);
@@ -44,11 +44,29 @@ h2,h3{
     margin-top: 50px;
     font-size: 150%;
 }
+h3{
+     width: 650px;
+   height: 30px;
+        text-align: center;
+    margin-top: 20px;
+    font-size: 150%;
+}
+
 h4{
      width: 650px;
    height: 30px;
         text-align: center;
     margin-top: 50px;
+     font-size: 150%;
+}
+h5{
+     width: 650px;
+   height: 30px;
+    background-image: url(assessment/picture/udetokei.png);
+    background-size:auto;
+        text-align: center;
+    margin-top: 50px;
+    font-size: 150%;
 }
 .fast{
     margin-left: 35%;
