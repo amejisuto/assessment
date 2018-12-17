@@ -8,7 +8,7 @@ body{
     margin-top: 100px;
     background-color: #58ACFA;
 }
-input,.red,h5{
+h1,h4,h2,input,.red,h5{
     text-align: center;
 }
 .koeda{
@@ -25,45 +25,16 @@ input,.red,h5{
    top:0px;
    width:100%;
    z-index:24;
-   background-image: url(assessment/picture/koeda.png);
-    background-size:auto;
+   background-image: url(koeda.png);
+   background-size:auto;
 }
 .KONAMI{
-     width: 650px;
-   height: 40px;
-    background-image: url(assessment/picture/nekutai.png);
-    background-size:auto; 
-    text-align: center;
-}
-h2{
-     width: 650px;
-   height: 30px;
-    background-image: url(assessment/picture/udetokei.png);
+    background-image: url(nekutai.png);
     background-size:auto;
-        text-align: center;
-    margin-top: 50px;
-    font-size: 150%;
 }
-h3{
-     width: 650px;
-   height: 30px;
-        text-align: center;
-    margin-top: 20px;
-    font-size: 150%;
-}
-
-h4{
-     width: 650px;
-   height: 30px;
-        text-align: center;
-    margin-top: 50px;
-     font-size: 150%;
-}
-h5{
-     width: 650px;
-   height: 30px;
-        text-align: center;
-    margin-top: 50px;
+h2,h3{
+    background-image: url(udetokei.png);
+    background-size:auto;
     font-size: 150%;
 }
 .fast{
@@ -94,6 +65,9 @@ h5{
     border-bottom: none;/*線を消す*/
  }
 
+ h2{
+     margin-top: 50px;
+ }
 span{
     color: brown;
 }
