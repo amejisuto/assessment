@@ -8,7 +8,7 @@ body{
     margin-top: 100px;
     background-color: #58ACFA;
 }
-h4,input,.red,h5{
+input,.red,h5{
     text-align: center;
 }
 .koeda{
@@ -40,6 +40,12 @@ h2{
    height: 30px;
     background-image: url(assessment/picture/udetokei.png);
     background-size:auto;
+        text-align: center;
+    margin-top: 50px;
+}
+h4{
+     width: 650px;
+   height: 30px;
         text-align: center;
     margin-top: 50px;
 }
