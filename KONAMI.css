@@ -25,15 +25,15 @@ h1,h4,h2,input,.red,h5{
    top:0px;
    width:100%;
    z-index:24;
-   background-image: url(koeda.png);
+   background-image: url(picture/koeda.png);
    background-size:auto;
 }
 .KONAMI{
-    background-image: url(nekutai.png);
+    background-image: url(picture/nekutai.png);
     background-size:auto;
 }
 h2,h3{
-    background-image: url(udetokei.png);
+    background-image: url(picture/udetokei.png);
     background-size:auto;
     font-size: 150%;
 }
